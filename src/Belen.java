@@ -1,7 +1,4 @@
-import java.sql.SQLOutput;
-import java.util.Scanner;
-
-public class belen {
+public class Belen {
     public static void main(String[] args) {
         // this is for practice
         // the short cut for printing a line is sout and then click tab
