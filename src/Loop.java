@@ -26,6 +26,50 @@ public class Loop {
 //                System.out.println("This is inner loop: "+j);
 //            }
 //        }
+        for(int q=1; q<=10;q++){
+            if(q>5){
+                System.out.println("Greater than 5: "+q);
+            }
+            else if(q<5){
+                System.out.println("Less than 5: "+q);
+            }
+        }
+        int[] numbers={1,2,3,4,5};
+        for(int z:numbers){
+           if(z%2==0){
+               System.out.println("This is even number: "+ z);
+           }
+           else{
+               System.out.println("This is odd number: "+ z);
+           }
+        }
+     char [] letters ={'a','g','b','k','i'};
+        for(char z: letters){
+            if(z=='a' || z=='e' || z=='i' || z=='o' || z=='u'){
+                System.out.println("This is a vowel: "+z);
+            }
+            else{
+                System.out.println("This is a not vowel: "+z);
+            }
+        }
+
+        char [] letters2 ={'a','g','b','k','i'};
+        char [] vowels = {'a','e','i','o','u'};
+        for(int i=0; i<letters2.length; i++){
+            for(int j=0; j<vowels.length;j++) {
+                if (letters2[i] == vowels[j]) {
+                    System.out.println("This is a Vowel: " + letters2[i]);
+                }
+            }
+        }
+        for(char bed:letters2){
+            for(char sofa:vowels){
+                if(bed==sofa){
+                    System.out.println("This is a vowel "+bed);
+                }
+            }
+        }
+
         for (int f=1; f<9;f++){
             System.out.print("For "+f+" it prints:");
             for (int g=0;g<5;g++){
