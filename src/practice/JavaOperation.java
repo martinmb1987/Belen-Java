@@ -1,3 +1,5 @@
+package practice;
+
 public class JavaOperation{
     public static void main(String[]args) {
         int num1 = 10;

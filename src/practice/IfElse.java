@@ -1,3 +1,5 @@
+package practice;
+
 public class IfElse {
     public static void main(String[] args) {
         int age;
@@ -18,9 +20,9 @@ public class IfElse {
 //        int age1 = Integer.parseInt(myObj.nextLine());  // Read user input
 
 
-        String name1 = "Belen";
+        String name1 = "practice.Belen";
         char letter = 'c';
-        if (name1 == "Belen") {
+        if (name1 == "practice.Belen") {
             System.out.println("This is correct: Name is " + name1);
             if (name1.contains(String.valueOf(letter))) {
                 System.out.println("The name contains the word " + letter);

@@ -1,6 +1,11 @@
+package practice;
+
 import java.util.Arrays;
 
 public class Practice {
+    public void subtraction (int a, int b){
+        System.out.println("The subtraction result is: "+ (a-b));
+    }
     public static void main(String[] args) {
         for (int a = 10; a < 20; a++) {
             System.out.println(a + "=hello");
