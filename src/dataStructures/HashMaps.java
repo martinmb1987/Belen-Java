@@ -11,6 +11,8 @@ public class HashMaps {
         numberMapping.put("Two", 2);
         numberMapping.put("Three", 3);
 
+
+
         // Add a new key-value pair only if the key does not exist in the HashMap, or is mapped to `null`
         numberMapping.putIfAbsent("Four", 4);
 
@@ -24,5 +26,15 @@ public class HashMaps {
         numberMapping.forEach(
                 (key, value)
                 -> System.out.println(key + " = " + value));
+        //-------------------------------------------------------------------
+        HashMap<String,Integer> age=new HashMap<>();
+        age.put("Belen",36);
+        age.put("Norma",72);
+        System.out.println("Age is: " + age.get("Belen"));
+        for(String name: age.keySet()){
+            System.out.println(name+"\t"+age.get(name));
+        }
+
+
     }
 }

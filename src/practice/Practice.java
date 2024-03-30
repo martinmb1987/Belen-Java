@@ -43,6 +43,15 @@ public class Practice {
         for(char c: vowel){
             System.out.print(c+"\t");
         }
+
+        System.out.println();
+        int[][] numbers = {{1,2,3,4,5},{2,4}};
+        for(int[] s: numbers){
+          for(int j:s){
+              System.out.println(j);
+          }
+        }
+
     }
 
 }

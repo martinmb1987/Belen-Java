@@ -28,7 +28,7 @@ public class Method {
     public static void main(String[] args) {
         findVowel();
         myMethod("Martin");
-        addition(48,49,78);
+        addition(38,49,78);
         multiply(4,8);
         Method obj = new Method();
         obj.subtraction(40,8);
